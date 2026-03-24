@@ -35,10 +35,10 @@ def call_groq_ai(prompt):
     return response.json()["choices"][0]["message"]["content"]
 
 # ── Real Jira Integration ─────────────────────────────────
-JIRA_EMAIL  = os.getenv("JIRA_EMAIL", "anki8pandey@gmail.com")
-JIRA_TOKEN  = os.getenv("JIRA_TOKEN", "")
-JIRA_DOMAIN = os.getenv("JIRA_DOMAIN", "anki8pandey.atlassian.net")
-JIRA_PROJECT = os.getenv("JIRA_PROJECT", "S2")
+JIRA_EMAIL  = os.getenv("JIRA_EMAIL", "your_email@example.com")
+JIRA_TOKEN  = os.getenv("JIRA_TOKEN", "your_jira_token_here")
+JIRA_DOMAIN = os.getenv("JIRA_DOMAIN", "your_domain.atlassian.net")
+JIRA_PROJECT = os.getenv("JIRA_PROJECT", "YOUR_PROJECT_KEY")
 
 def get_stories():
     """Fetch real stories from Jira REST API"""
