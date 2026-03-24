@@ -160,6 +160,3 @@ MissionSrijan26/
 
 **Mission Srijan 26 | Srijan 2026 by Atos Global**
 
-
-✅ Drive video link ready
-✅ Unstop pe submit karo!
