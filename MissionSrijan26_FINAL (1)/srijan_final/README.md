@@ -6,7 +6,7 @@
 
 ### Setup:
 1. Install: `pip install -r requirements.txt && playwright install chromium`
-2. Add GROQ_API_KEY in .env file
+2. Add GEMINI_API_KEY in .env file
 3. Run: `streamlit run app.py`
 4. Open: http://localhost:8501
 
